@@ -67,12 +67,53 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Home.aspx" />
+    <Content Include="imagenes\PIC2.jpg" />
+    <Content Include="RegistrarEncuesta.aspx" />
+    <Content Include="ReporteEncuestas.aspx" />
+    <Content Include="ResultadoEncuestas.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal.Master.cs">
+      <DependentUpon>MenuPrincipal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Master.designer.cs">
+      <DependentUpon>MenuPrincipal.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrarEncuesta.aspx.cs">
+      <DependentUpon>RegistrarEncuesta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrarEncuesta.aspx.designer.cs">
+      <DependentUpon>RegistrarEncuesta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteEncuestas.aspx.cs">
+      <DependentUpon>ReporteEncuestas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteEncuestas.aspx.designer.cs">
+      <DependentUpon>ReporteEncuestas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResultadoEncuestas.aspx.cs">
+      <DependentUpon>ResultadoEncuestas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResultadoEncuestas.aspx.designer.cs">
+      <DependentUpon>ResultadoEncuestas.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MenuPrincipal.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
